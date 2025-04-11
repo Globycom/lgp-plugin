@@ -1,0 +1,213 @@
+#lgp-ai-popup,
+#lgp-form-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000080;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    clip-path: border-box;
+}
+
+#lgp-ai-popup>div,
+#lgp-form-popup>div {
+    display: flex;
+    gap: 0;
+    width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    clip-path: border-box;
+}
+
+.left-popup {
+    width: 35%;
+    gap: 40px;
+    background-color: #376092;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#lgp-ai-popup .left-popup {
+    background-image: url(https://comparateur.leguichetpro.com/wp-content/uploads/2025/03/woman.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lgp-logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lgp-logo img {
+    width: fit-content;
+    height: 40px;
+}
+
+.left-popup p {
+    font-family: poppins, helvetica, Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+#lgp-slogan {
+    font-size: 12px;
+}
+
+#left-popup-icons,
+.left-popup>div div {
+    display: flex;
+}
+
+#left-popup-icons {
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+#left-popup-icons svg {
+    flex-shrink: 0;
+}
+
+#left-popup-icons>div {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.right-popup {
+    width: 65%;
+    position: relative;
+}
+
+#lgp-ai-popup .right-popup {
+    height: 500px;
+}
+
+.right-popup .chat-header,
+.chat-window-toggle svg {
+    display: none !important;
+}
+
+#popup-n8n-chat {
+    height: 500px;
+}
+
+#n8n-chat-bubble {
+    position: relative;
+    z-index: 9998;
+}
+
+.chat-window {
+    z-index: 9998;
+    border: none !important;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15) !important;
+}
+
+.lgp-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 5px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.lgp-close-btn svg {
+    height: 20px;
+}
+
+.chat-window-toggle {
+    background: none !important;
+    background-color: white !important;
+    background-image: url('https://codeinwp-gby.s3.eu-west-3.amazonaws.com/2024/07/Favicon-LGP-no-background.png.webp') !important;
+    background-size: 60% !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 100px !important;
+}
+
+:root {
+    --chat--spacing: 20px !important;
+    --chat--heading--font-size: 30px !important;
+    --chat--border-radius: 5px !important;
+}
+
+.chat-header {
+    gap: var(--chat--spacing) !important;
+    background-color: #376092 !important;
+}
+
+.chat-header p,
+.chat-header h1 {
+    margin: 0 !important;
+}
+
+#form-open-btn {
+    position: fixed;
+    border-radius: 5px;
+    bottom: 20px;
+    right: 104px;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    background-color: #376092;
+    padding: 12px;
+    z-index: 9998;
+    cursor: pointer;
+    color: white;
+    transition: .6s;
+}
+
+#form-open-btn:hover {
+    background-color: hsl(213, 45%, 49%);
+}
+
+@media screen and (max-width: 1024px) {
+
+    #lgp-ai-popup>div,
+    #lgp-form-popup>div {
+        width: 80%;
+        height: 80vh;
+    }
+
+    .right-popup,
+    #popup-n8n-chat {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .left-popup {
+        display: none !important;
+    }
+
+    .right-popup {
+        width: 100%;
+    }
+
+    :root {
+        --chat--spacing: 16px !important;
+        --chat--toggle--size: 50px !important;
+    }
+
+    #form-open-btn {
+        bottom: 16px;
+        right: 82px;
+    }
+}
