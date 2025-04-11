@@ -161,7 +161,7 @@
     font-family: poppins!important;
 }
 .chat-message-markdown{
-    font-size: var(--chat--input--font-size);
+    font-size: var(--chat--input--font-size)!important;
 }
 
 #form-open-btn {
