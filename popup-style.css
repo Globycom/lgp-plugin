@@ -145,6 +145,7 @@
     --chat--spacing: 20px !important;
     --chat--heading--font-size: 30px !important;
     --chat--border-radius: 5px !important;
+    --chat--input--font-size:12px!important;
 }
 
 .chat-header {
@@ -154,7 +155,13 @@
 
 .chat-header p,
 .chat-header h1 {
-    margin: 0 !important;
+    margin: 0 !important; 
+}
+.chat-wrapper p, .chat-wrapper h1, .chat-inputs textarea{
+    font-family: poppins!important;
+}
+.chat-message-markdown{
+    font-size: var(--chat--input--font-size);
 }
 
 #form-open-btn {
