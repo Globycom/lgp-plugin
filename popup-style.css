@@ -160,7 +160,7 @@
 .chat-wrapper p, .chat-wrapper h1, .chat-inputs textarea{
     font-family: poppins!important;
 }
-.chat-message-markdown{
+.chat-message-markdown p{
     font-size: 12px!important;
 }
 
