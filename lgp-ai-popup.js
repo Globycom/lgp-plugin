@@ -1,7 +1,7 @@
 (function () {
     let popupOpened = false;
 
-    fetch("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@lgp/lgp-ai-popup.html")
+    fetch("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-ai-popup.html")
         .then(res => res.text())
         .then(html => {
             document.body.insertAdjacentHTML("beforeend", html);
@@ -9,14 +9,13 @@
             const popup = document.getElementById("lgp-ai-popup");
             if (!popup) return;
 
-            // Fonction pour vérifier si #lgp-form-popup est en display: flex
             function isFormPopupVisible() {
                 const formPopup = document.getElementById("lgp-form-popup");
                 return formPopup && formPopup.style.display === "flex";
             }
 
             function showPopup() {
-                if (popupOpened || isFormPopupVisible()) return; // Empêcher l'ouverture si #lgp-form-popup est en display: flex
+                if (popupOpened || isFormPopupVisible()) return;
                 popup.style.display = "flex";
                 document.body.style.overflow = "hidden";
 
