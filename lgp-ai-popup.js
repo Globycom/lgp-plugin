@@ -1,7 +1,7 @@
 (function () {
     let popupOpened = false;
 
-    fetch("https://lgp.valentinsahali.fr/lgp-plugin/lgp-ai-popup.html")
+    fetch("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@lgp/lgp-ai-popup.html")
         .then(res => res.text())
         .then(html => {
             document.body.insertAdjacentHTML("beforeend", html);
