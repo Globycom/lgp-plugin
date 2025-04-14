@@ -6,9 +6,9 @@
         document.head.appendChild(script);
     };
 
-    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@0.1/lgp-ai-agent.js");
-    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@0.1/lgp-ai-popup.js");
-    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@0.1/lgp-form-popup.js");
+    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@main/lgp-ai-agent.js");
+    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@main/lgp-ai-popup.js");
+    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@main/lgp-form-popup.js");
 })();
 
 const addCSS = (href) => {
@@ -19,4 +19,4 @@ const addCSS = (href) => {
 };
 
 addCSS("https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css");
-addCSS("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@0.1/popup-style.css");
+addCSS("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@main/popup-style.css");
