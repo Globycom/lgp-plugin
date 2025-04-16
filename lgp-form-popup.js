@@ -22,7 +22,7 @@
     filloutScript.src = "https://server.fillout.com/embed/v1/";
     document.head.appendChild(filloutScript);
 
-    fetch("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@main/lgp-form-popup.html")
+    fetch("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin/lgp-form-popup.html")
         .then(res => res.text())
         .then(html => {
             document.body.insertAdjacentHTML("beforeend", html);
