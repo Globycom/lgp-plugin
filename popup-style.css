@@ -98,7 +98,7 @@
 }
 
 .right-popup .chat-header,
-.chat-window-toggle svg {
+.chat-window-toggle svg, .chat-heading h1{
     display: none !important;
 }
 
@@ -156,6 +156,11 @@
 .chat-header p,
 .chat-header h1 {
     margin: 0 !important; 
+}
+.chat-heading{
+    background-image: url(https://comparateur.leguichetpro.com/wp-content/uploads/2025/04/Logo-Helpro.png)!important;
+    width: fit-content!important;
+    height: 25px!important;
 }
 .chat-wrapper p, .chat-wrapper h1, .chat-inputs textarea{
     font-family: poppins!important;

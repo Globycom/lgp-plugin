@@ -51,8 +51,7 @@
             i18n: {
 
                 en: {
-
-                    title: "Je suis HELPRO",
+        
                     subtitle: "Je suis une IA pour les PRO. Un expert prend le relais si vous êtes perdu.",
                     inputPlaceholder: "Tapez votre question ici"
                 },
