@@ -161,6 +161,10 @@
     background-image: url(https://comparateur.leguichetpro.com/wp-content/uploads/2025/04/Logo-Helpro.png)!important;
     width: fit-content!important;
     height: 25px!important;
+    width: 50px!important;
+    background-size: contain !important;
+    background-repeat: no-repeat!important;
+    background-position: center !important;
 }
 .chat-wrapper p, .chat-wrapper h1, .chat-inputs textarea{
     font-family: poppins!important;
