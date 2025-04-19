@@ -6,7 +6,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #00000080;
-    z-index: 9999;
+    z-index: 99999;
     display: none;
     justify-content: center;
     align-items: center;
@@ -42,6 +42,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    justify-content: flex-end;
 }
 
 .lgp-logo {
@@ -50,21 +51,23 @@
     gap: 10px;
 }
 
+#lgp-ai-popup .lgp-logo{
+    padding: 10px;
+    background-color: #376092;
+    border-radius: 5px;
+}
+
 .lgp-logo img {
     width: fit-content;
-    height: 40px;
+    height: 30px;
 }
 
 .left-popup p {
     font-family: poppins, helvetica, Sans-serif;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 300;
     color: white;
     margin: 0;
-}
-
-#lgp-slogan {
-    font-size: 12px;
 }
 
 #left-popup-icons,
@@ -87,6 +90,12 @@
     gap: 10px;
     align-items: center;
 }
+.lgp-phone{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 14px!important;
+}
 
 .right-popup {
     width: 65%;
@@ -108,11 +117,11 @@
 
 #n8n-chat-bubble {
     position: relative;
-    z-index: 9998;
+    z-index: 99998;
 }
 
 .chat-window {
-    z-index: 9998;
+    z-index: 99998;
     border: none !important;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15) !important;
 }
@@ -123,7 +132,7 @@
     right: 15px;
     padding: 5px;
     cursor: pointer;
-    z-index: 9999;
+    z-index: 99999;
 }
 
 .lgp-close-btn svg {
@@ -149,7 +158,7 @@
 }
 
 .chat-header {
-    gap: var(--chat--spacing) !important;
+    gap: 10px !important;
     background-color: #376092 !important;
 }
 
@@ -157,19 +166,20 @@
 .chat-header h1 {
     margin: 0 !important; 
 }
+
 .chat-heading{
-    background-image: url(https://comparateur.leguichetpro.com/wp-content/uploads/2025/04/Logo-Helpro.png)!important;
+    background-image: url(https://comparateur.leguichetpro.com/wp-content/uploads/2025/04/Heypro.webp)!important;
     width: fit-content!important;
-    height: 25px!important;
-    width: 50px!important;
+    height: 40px!important;
+    width: auto!important;
     background-size: contain !important;
     background-repeat: no-repeat!important;
-    background-position: center !important;
+    background-position: left !important;
 }
 .chat-wrapper p, .chat-wrapper h1, .chat-inputs textarea{
     font-family: poppins!important;
 }
-.chat-message-markdown p{
+.chat-message-markdown p, .chat-header p{
     font-size: 12px!important;
 }
 
@@ -183,8 +193,8 @@
     font-weight: 400;
     border: none;
     background-color: #376092;
-    padding: 12px;
-    z-index: 9998;
+    padding: 6px 12px;
+    z-index: 99998;
     cursor: pointer;
     color: white;
     transition: .6s;
@@ -193,8 +203,6 @@
 #form-open-btn:hover {
     background-color: hsl(213, 45%, 49%);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @media screen and (max-width: 1024px) {
 
