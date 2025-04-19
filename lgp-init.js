@@ -14,11 +14,11 @@
 
 
 
-    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin/lgp-ai-agent.js");
+    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-ai-agent.js");
 
-    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin/lgp-ai-popup.js");
+    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-ai-popup.js");
 
-    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin/lgp-form-popup.js");
+    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-form-popup.js");
 
 })();
 
@@ -40,4 +40,4 @@ const addCSS = (href) => {
 addCSS("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap")
 addCSS("https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css");
 
-addCSS("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin/popup-style.css");
+addCSS("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/popup-style.css");

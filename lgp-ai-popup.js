@@ -4,7 +4,7 @@
 
 
 
-    fetch("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin/lgp-ai-popup.html")
+    fetch("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-ai-popup.html")
 
         .then(res => res.text())
 
