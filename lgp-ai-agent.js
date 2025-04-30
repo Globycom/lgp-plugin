@@ -25,7 +25,7 @@
             ],
             i18n: {
                 en: {
-                    subtitle: "Je suis une IA pour les PRO. Un expert prend le relais si vous êtes perdu. Appelez le 01 83 79 08 55",
+                    subtitle: "Je suis une IA pour les PRO. Un expert prend le relais si vous êtes perdu. Appelez le 01 89 49 66 73",
                     inputPlaceholder: "Tapez votre question ici"
                 },
             },
