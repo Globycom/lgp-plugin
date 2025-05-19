@@ -29,7 +29,7 @@
                         rightPopup.appendChild(filloutDiv);
                     }
 
-                    popup.style.display = "block";
+                    popup.style.display = "flex";
                     document.body.style.overflow = "hidden";
 
                     const closeButton = document.querySelector("#lgp-callback-popup .lgp-close-btn");
