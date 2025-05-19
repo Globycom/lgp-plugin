@@ -18,6 +18,8 @@
 
     /*loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-ai-popup.js");*/
 
+    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-callback-popup.js");
+
     loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-form-popup.js");
 
 })();
