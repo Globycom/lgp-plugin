@@ -33,29 +33,4 @@
     `;
 
     document.body.appendChild(scriptBubble);
-
-    let inactivityTimer;
-    let bubbleClicked = false;
-
-    const resetInactivityTimer = () => {
-        clearTimeout(inactivityTimer);
-
-        inactivityTimer = setTimeout(() => {
-            if (!bubbleClicked) {
-                const chatWindow = document.querySelector('.chat-window');
-                const chatToggle = document.querySelector('.chat-window-toggle');
-
-                if (chatWindow && chatWindow.style.display === 'none' && chatToggle) {
-                    chatToggle.click();
-                    bubbleClicked = true;
-                }
-            }
-        }, 30000);
-    };
-
-    ["mousemove", "keydown", "scroll", "click"].forEach(evt =>
-        document.addEventListener(evt, resetInactivityTimer)
-    );
-
-    resetInactivityTimer();
 })();
