@@ -1,5 +1,6 @@
 #lgp-ai-popup,
-#lgp-form-popup {
+#lgp-form-popup,
+#lgp-callback-popup {
     position: fixed;
     top: 0;
     left: 0;
@@ -15,7 +16,8 @@
 }
 
 #lgp-ai-popup>div,
-#lgp-form-popup>div {
+#lgp-form-popup>div,
+#lgp-callback-popup>div {
     display: flex;
     gap: 0;
     width: 800px;
@@ -37,7 +39,8 @@
     justify-content: space-between;
 }
 
-#lgp-ai-popup .left-popup {
+#lgp-ai-popup .left-popup,
+#lgp-callback-popup .left-popup {
     background-image: url(https://comparateur.leguichetpro.com/wp-content/uploads/2025/03/woman.webp);
     background-position: center;
     background-size: cover;
@@ -51,7 +54,8 @@
     gap: 10px;
 }
 
-#lgp-ai-popup .lgp-logo{
+#lgp-ai-popup .lgp-logo,
+#lgp-callback-popup .lgp-logo {
     padding: 10px;
     background-color: #376092;
     border-radius: 5px;
@@ -90,7 +94,8 @@
     gap: 10px;
     align-items: center;
 }
-.lgp-phone{
+
+.lgp-phone {
     display: flex;
     gap: 5px;
     align-items: center;
@@ -101,12 +106,14 @@
     position: relative;
 }
 
-#lgp-ai-popup .right-popup {
+#lgp-ai-popup .right-popup,
+#lgp-callback-popup .right-popup {
     height: 500px;
 }
 
 .right-popup .chat-header,
-.chat-window-toggle svg, .chat-heading h1{
+.chat-window-toggle svg,
+.chat-heading h1 {
     display: none !important;
 }
 
@@ -153,7 +160,7 @@
     --chat--spacing: 20px !important;
     --chat--heading--font-size: 30px !important;
     --chat--border-radius: 5px !important;
-    --chat--input--font-size:12px!important;
+    --chat--input--font-size: 12px !important;
 }
 
 .chat-header {
@@ -163,23 +170,28 @@
 
 .chat-header p,
 .chat-header h1 {
-    margin: 0 !important; 
+    margin: 0 !important;
 }
 
-.chat-heading{
-    background-image: url(https://comparateur.leguichetpro.com/wp-content/uploads/2025/04/Heypro.webp)!important;
-    width: fit-content!important;
-    height: 40px!important;
-    width: auto!important;
+.chat-heading {
+    background-image: url(https://comparateur.leguichetpro.com/wp-content/uploads/2025/04/Heypro.webp) !important;
+    width: fit-content !important;
+    height: 40px !important;
+    width: auto !important;
     background-size: contain !important;
-    background-repeat: no-repeat!important;
+    background-repeat: no-repeat !important;
     background-position: left !important;
 }
-.chat-wrapper p, .chat-wrapper h1, .chat-inputs textarea{
-    font-family: poppins!important;
+
+.chat-wrapper p,
+.chat-wrapper h1,
+.chat-inputs textarea {
+    font-family: poppins !important;
 }
-.chat-message-markdown p, .chat-header p{
-    font-size: 12px!important;
+
+.chat-message-markdown p,
+.chat-header p {
+    font-size: 12px !important;
 }
 
 #form-open-btn {
@@ -206,7 +218,8 @@
 @media screen and (max-width: 1024px) {
 
     #lgp-ai-popup>div,
-    #lgp-form-popup>div {
+    #lgp-form-popup>div,
+    #lgp-callback-popup>div {
         width: 80%;
         height: 80vh;
     }
