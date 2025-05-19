@@ -29,6 +29,11 @@
     clip-path: border-box;
 }
 
+#lgp-callback-popup>div {
+    width: 600px;
+    background-color: #f8f8f8;
+}
+
 .left-popup {
     width: 35%;
     gap: 40px;
@@ -106,9 +111,12 @@
     position: relative;
 }
 
-#lgp-ai-popup .right-popup,
-#lgp-callback-popup .right-popup {
+#lgp-ai-popup .right-popup {
     height: 500px;
+}
+
+#lgp-callback-popup .right-popup {
+    min-height: 250px;
 }
 
 .right-popup .chat-header,
