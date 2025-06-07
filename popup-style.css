@@ -226,8 +226,7 @@
 @media screen and (max-width: 1024px) {
 
     #lgp-ai-popup>div,
-    #lgp-form-popup>div,
-    #lgp-callback-popup>div {
+    #lgp-form-popup>div {
         width: 80%;
         height: 80vh;
     }
@@ -236,6 +235,10 @@
     #popup-n8n-chat {
         height: 80vh;
     }
+    
+    #lgp-callback-popup .right-popup{
+        height: fit-content;
+    }    
 }
 
 @media screen and (max-width: 767px) {
