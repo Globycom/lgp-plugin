@@ -109,6 +109,7 @@
 .right-popup {
     width: 65%;
     position: relative;
+    background-color: #F8F8F8;
 }
 
 #lgp-ai-popup .right-popup {
