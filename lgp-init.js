@@ -20,7 +20,7 @@
 
     loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-callback-popup.js");
 
-    loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-form-popup.js");
+    /*loadScript("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/lgp-form-popup.js");*/
 
 })();
 
@@ -43,4 +43,5 @@ addCSS("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;70
 addCSS("https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css");
 
 addCSS("https://cdn.jsdelivr.net/gh/globycom/lgp-plugin@latest/popup-style.css");
+
 
